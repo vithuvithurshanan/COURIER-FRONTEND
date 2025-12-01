@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/clients/page": "/clients",
+  "/dashboard/page": "/dashboard",
+  "/drivers/page": "/drivers",
+  "/favicon.ico/route": "/favicon.ico",
+  "/login/page": "/login",
+  "/page": "/",
+  "/shipments/page": "/shipments",
+  "/staff/page": "/staff",
+  "/suppliers/page": "/suppliers"
+}

@@ -1,0 +1,7 @@
+(globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: [
+  "static/chunks/Desktop_COURIER-SERVICE_courier-app_9df78532._.js"
+],
+    source: "dynamic"
+});

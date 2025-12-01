@@ -1,0 +1,9 @@
+{
+  "/clients/page": "app/clients/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/drivers/page": "app/drivers/page.js",
+  "/login/page": "app/login/page.js",
+  "/shipments/page": "app/shipments/page.js",
+  "/staff/page": "app/staff/page.js",
+  "/suppliers/page": "app/suppliers/page.js"
+}
