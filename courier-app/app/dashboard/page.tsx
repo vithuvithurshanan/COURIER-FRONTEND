@@ -94,8 +94,8 @@ export default function DashboardPage() {
 
   return (
     <Layout>
-      <div>
-        <div className="mb-8">
+      <div className='grid grid-rows-1 gap-4'>
+        <div className="mb-8 ">
           <h1 className="page-header">Dashboard Overview</h1>
           <p className="text-gray-600">Welcome back! Here's what's happening today.</p>
         </div>

@@ -4,3 +4,30 @@
 [00:00:16.775] Server  LOG      ✓ Compiled in 775ms
 [00:01:04.263] Server  LOG      ✓ Compiled in 2.7s
 [00:02:16.011] Server  LOG      ✓ Compiled in 2s
+[00:22:57.862] Server  LOG      ✓ Compiled in 1347ms
+[00:23:00.829] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:05.188] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:06.614] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:08.276] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:17.579] Server  LOG      ✓ Compiled in 1411ms
+[00:23:19.177] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:30.881] Server  LOG      ✓ Compiled in 1198ms
+[00:23:37.745] Server  LOG      ✓ Compiled in 1223ms
+[00:23:37.852] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true clka clka true clka
+[00:23:40.235] Server  LOG      ✓ Compiled in 1840ms
+[00:23:40.384] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true cl cl true cl
+[00:23:41.168] Server  LOG      ✓ Compiled in 916ms
+[00:23:56.545] Server  LOG      ✓ Compiled in 647ms
+[00:24:02.346] Server  LOG      ✓ Compiled in 1016ms
+[00:24:07.132] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:14.365] Server  LOG      ✓ Compiled in 639ms
+[00:24:16.518] Server  LOG      ✓ Compiled in 982ms
+[00:24:20.090] Server  LOG      ✓ Compiled in 1126ms
+[00:24:22.138] Server  LOG      ✓ Compiled in 1181ms
+[00:24:24.671] Server  LOG      ✓ Compiled in 1306ms
+[00:24:26.111] Server  LOG      ✓ Compiled in 1229ms
+[00:24:27.997] Server  LOG      ✓ Compiled in 1444ms

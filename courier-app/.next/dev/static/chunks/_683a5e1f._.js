@@ -529,11 +529,11 @@ var _s = __turbopack_context__.k.signature();
 function DashboardPage() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(60);
-    if ($[0] !== "7edf7cbc1fee883ab69cb676bba60c0138bf9f8e0e9951cb4b191c1a48c858f6") {
+    if ($[0] !== "2411e60efa2f4f09abdbbb541fc5c102195f14e0de1f4eade041db3bb1703264") {
         for(let $i = 0; $i < 60; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "7edf7cbc1fee883ab69cb676bba60c0138bf9f8e0e9951cb4b191c1a48c858f6";
+        $[0] = "2411e60efa2f4f09abdbbb541fc5c102195f14e0de1f4eade041db3bb1703264";
     }
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
     const { clients, drivers, shipments } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$context$2f$DataContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useData"])();
@@ -713,7 +713,7 @@ function DashboardPage() {
     let t8;
     if ($[28] === Symbol.for("react.memo_cache_sentinel")) {
         t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "mb-8",
+            className: "mb-8 ",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                     className: "page-header",
@@ -721,7 +721,7 @@ function DashboardPage() {
                 }, void 0, false, {
                     fileName: "[project]/app/dashboard/page.tsx",
                     lineNumber: 190,
-                    columnNumber: 32
+                    columnNumber: 33
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     className: "text-gray-600",
@@ -729,7 +729,7 @@ function DashboardPage() {
                 }, void 0, false, {
                     fileName: "[project]/app/dashboard/page.tsx",
                     lineNumber: 190,
-                    columnNumber: 83
+                    columnNumber: 84
                 }, this)
             ]
         }, void 0, true, {
@@ -1117,6 +1117,7 @@ function DashboardPage() {
     if ($[57] !== t25 || $[58] !== t9) {
         t26 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Layout$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "grid grid-rows-1 gap-4",
                 children: [
                     t8,
                     t9,
