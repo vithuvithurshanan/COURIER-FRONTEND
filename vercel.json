@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd courier-app && npm run build",
+  "outputDirectory": "courier-app/out",
+  "installCommand": "cd courier-app && npm install"
+}
