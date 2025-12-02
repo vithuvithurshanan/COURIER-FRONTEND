@@ -119,8 +119,16 @@ export default function SuppliersPage() {
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-700">{supplier.phone}</td>
                     <td className="px-6 py-4 whitespace-nowrap">
                       <div className="btn-group-tight">
-                        <button onClick={() => handleEdit(supplier)} className="action-btn action-btn-edit">Edit</button>
-                        <button onClick={() => handleDelete(supplier)} className="action-btn action-btn-delete">Delete</button>
+                        <button onClick={() => handleEdit(supplier)} className="action-btn action-btn-edit" title="Edit">
+                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+                          </svg>
+                        </button>
+                        <button onClick={() => handleDelete(supplier)} className="action-btn action-btn-delete" title="Delete">
+                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                          </svg>
+                        </button>
                       </div>
                     </td>
                   </tr>
@@ -137,22 +145,22 @@ export default function SuppliersPage() {
               <form onSubmit={handleSubmit}>
                 <div className="form-group">
                   <label className="form-label">Company Name</label>
-                  <input 
-                    type="text" 
-                    className="input-field" 
+                  <input
+                    type="text"
+                    className="input-field"
                     placeholder="Enter company name"
                     value={formData.name}
-                    onChange={(e) => setFormData({...formData, name: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     required
                   />
                 </div>
                 <div className="form-row form-row-2">
                   <div className="form-group">
                     <label className="form-label">Supplier Type</label>
-                    <select 
+                    <select
                       className="select-field"
                       value={formData.type}
-                      onChange={(e) => setFormData({...formData, type: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, type: e.target.value })}
                     >
                       <option>Packaging</option>
                       <option>Shipping Agent</option>
@@ -162,12 +170,12 @@ export default function SuppliersPage() {
                   </div>
                   <div className="form-group">
                     <label className="form-label">Contact Person</label>
-                    <input 
-                      type="text" 
-                      className="input-field" 
+                    <input
+                      type="text"
+                      className="input-field"
                       placeholder="Enter contact name"
                       value={formData.contact}
-                      onChange={(e) => setFormData({...formData, contact: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, contact: e.target.value })}
                       required
                     />
                   </div>
@@ -175,23 +183,23 @@ export default function SuppliersPage() {
                 <div className="form-row form-row-2">
                   <div className="form-group">
                     <label className="form-label">Email</label>
-                    <input 
-                      type="email" 
-                      className="input-field" 
+                    <input
+                      type="email"
+                      className="input-field"
                       placeholder="email@supplier.com"
                       value={formData.email}
-                      onChange={(e) => setFormData({...formData, email: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       required
                     />
                   </div>
                   <div className="form-group">
                     <label className="form-label">Phone</label>
-                    <input 
-                      type="tel" 
-                      className="input-field" 
+                    <input
+                      type="tel"
+                      className="input-field"
                       placeholder="555-0000"
                       value={formData.phone}
-                      onChange={(e) => setFormData({...formData, phone: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       required
                     />
                   </div>

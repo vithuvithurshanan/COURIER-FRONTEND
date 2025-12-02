@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext, useContext, useState, ReactNode, useEffect } from 'react';
+import { createContext, useContext, useState, ReactNode, useRef, useEffect } from 'react';
 
 interface Client {
   id: number;
@@ -62,7 +62,7 @@ interface DataContextType {
 const DataContext = createContext<DataContextType | undefined>(undefined);
 
 export function DataProvider({ children }: { children: ReactNode }) {
-  const [mounted, setMounted] = useState(false);
+  const mounted = useRef(false);
   
   const defaultClients: Client[] = [
     { id: 1, name: 'ABC Corporation', contact: 'John Manager', email: 'john@abc.com', phone: '555-1001', address: '123 Business St' },
@@ -114,7 +114,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
           localStorage.removeItem(key);
         }
       }
-    } catch (e) {
+    } catch {
       // Invalid data, use defaults
     }
     return defaults;
@@ -128,12 +128,12 @@ export function DataProvider({ children }: { children: ReactNode }) {
 
   // Mark as mounted for localStorage saves
   useEffect(() => {
-    setMounted(true);
+    mounted.current = true;
   }, []);
 
   const setClients = (newClients: Client[]) => {
     setClientsState(newClients);
-    if (mounted) {
+    if (mounted.current) {
       try {
         // Only save if array has items, otherwise remove from localStorage
         if (newClients.length > 0) {
@@ -149,7 +149,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
 
   const setDrivers = (newDrivers: Driver[]) => {
     setDriversState(newDrivers);
-    if (mounted) {
+    if (mounted.current) {
       try {
         if (newDrivers.length > 0) {
           localStorage.setItem('drivers', JSON.stringify(newDrivers));
@@ -164,7 +164,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
 
   const setShipments = (newShipments: Shipment[]) => {
     setShipmentsState(newShipments);
-    if (mounted) {
+    if (mounted.current) {
       try {
         if (newShipments.length > 0) {
           localStorage.setItem('shipments', JSON.stringify(newShipments));
@@ -179,7 +179,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
 
   const setStaff = (newStaff: Staff[]) => {
     setStaffState(newStaff);
-    if (mounted) {
+    if (mounted.current) {
       try {
         if (newStaff.length > 0) {
           localStorage.setItem('staff', JSON.stringify(newStaff));
@@ -194,7 +194,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
 
   const setSuppliers = (newSuppliers: Supplier[]) => {
     setSuppliersState(newSuppliers);
-    if (mounted) {
+    if (mounted.current) {
       try {
         if (newSuppliers.length > 0) {
           localStorage.setItem('suppliers', JSON.stringify(newSuppliers));

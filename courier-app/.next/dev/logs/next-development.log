@@ -1,34 +1,240 @@
-[00:00:03.677] Server  LOG      ✓ Ready in 2.5s
-[00:00:06.772] Server  LOG      ○ Compiling /clients ...
-[00:00:12.926] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:16.775] Server  LOG      ✓ Compiled in 775ms
-[00:01:04.263] Server  LOG      ✓ Compiled in 2.7s
-[00:02:16.011] Server  LOG      ✓ Compiled in 2s
-[00:22:57.862] Server  LOG      ✓ Compiled in 1347ms
-[00:23:00.829] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:05.188] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:06.614] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:08.276] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:17.579] Server  LOG      ✓ Compiled in 1411ms
-[00:23:19.177] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:30.881] Server  LOG      ✓ Compiled in 1198ms
-[00:23:37.745] Server  LOG      ✓ Compiled in 1223ms
-[00:23:37.852] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
-
-If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true clka clka true clka
-[00:23:40.235] Server  LOG      ✓ Compiled in 1840ms
-[00:23:40.384] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
+[00:00:01.951] Server  LOG      ✓ Ready in 1535ms
+[00:00:17.110] Server  LOG      ○ Compiling / ...
+[00:00:19.869] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:02.695] Server  LOG      ✓ Compiled in 596ms
+[00:01:12.417] Server  LOG      ✓ Compiled in 236ms
+[00:01:15.453] Server  LOG      ✓ Compiled in 235ms
+[00:01:22.948] Server  LOG      ✓ Compiled in 274ms
+[00:01:33.298] Server  LOG      ✓ Compiled in 234ms
+[00:02:07.246] Server  LOG      ✓ Compiled in 198ms
+[00:02:08.835] Server  LOG      ✓ Compiled in 243ms
+[00:02:10.191] Server  LOG      ✓ Compiled in 229ms
+[00:02:20.112] Server  LOG      ✓ Compiled in 216ms
+[00:02:28.832] Server  LOG      ✓ Compiled in 240ms
+[00:02:59.553] Server  LOG      ✓ Compiled in 242ms
+[00:03:04.374] Server  LOG      ✓ Compiled in 234ms
+[00:03:12.876] Server  LOG      ✓ Compiled in 220ms
+[00:03:29.123] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:12.755] Server  LOG      ✓ Compiled in 1389ms
+[00:06:21.973] Server  LOG      ✓ Compiled in 1478ms
+[00:06:23.317] Server  LOG      ✓ Compiled in 937ms
+[00:07:45.742] Server  LOG      ✓ Compiled in 1072ms
+[00:07:49.521] Server  LOG      ✓ Compiled in 1227ms
+[00:07:55.052] Server  LOG      ✓ Compiled in 915ms
+[00:08:04.610] Server  LOG      ✓ Compiled in 689ms
+[00:08:06.843] Server  LOG      ✓ Compiled in 890ms
+[00:08:15.124] Server  LOG      ✓ Compiled in 828ms
+[00:08:19.138] Server  LOG      ✓ Compiled in 839ms
+[00:08:23.972] Server  LOG      ✓ Compiled in 760ms
+[00:08:28.438] Server  LOG      ✓ Compiled in 644ms
+[00:11:57.986] Server  LOG      ✓ Compiled in 215ms
+[00:12:00.031] Server  LOG      ✓ Compiled in 278ms
+[00:14:26.204] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:57.700] Server  LOG      ✓ Compiled in 1680ms
+[00:22:05.665] Server  LOG      ✓ Compiled in 884ms
+[00:22:34.177] Server  LOG      ✓ Compiled in 1376ms
+[00:22:37.446] Server  LOG      ✓ Compiled in 1120ms
+[00:22:42.689] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:49.927] Server  LOG      ✓ Compiled in 376ms
+[00:23:55.922] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/context/DataContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:23:55.938] Server  LOG      ✓ Compiled in 2.7s
+[00:23:57.937] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:02.071] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/context/DataContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:24:02.088] Server  LOG      ✓ Compiled in 2s
+[00:24:04.185] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:04.802] Browser ERROR   uncaughtError: ReferenceError: setMounted is not defined
+[00:24:08.192] Server  LOG      ✓ Compiled in 1385ms
+[00:24:08.194] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:24:08.195] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/context/DataContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:24:08.208] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:24:10.531] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:14.997] Server  LOG      ✓ Compiled in 1210ms
+[00:24:14.998] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/context/DataContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:24:17.402] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:18.517] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/context/DataContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:24:18.543] Server  LOG      ✓ Compiled in 981ms
+[00:24:20.206] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:21.380] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/context/DataContext.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:24:21.403] Server  LOG      ✓ Compiled in 614ms
+[00:24:22.945] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:35.632] Server  LOG      ✓ Compiled in 1543ms
+[00:27:26.161] Server  LOG      ✓ Compiled in 1841ms
+[00:27:30.748] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:41.305] Server  LOG      ✓ Compiled in 1392ms
+[00:31:16.246] Server  LOG      ✓ Compiled in 1195ms
+[00:31:23.767] Server  LOG      ✓ Compiled in 1202ms
+[00:31:26.336] Server  LOG      ✓ Compiled in 629ms
+[00:31:32.104] Server  LOG      ✓ Compiled in 1301ms
+[00:31:32.999] Server  LOG      ✓ Compiled in 852ms
+[00:31:35.128] Server  LOG      ✓ Compiled in 803ms
+[00:31:37.351] Server  LOG      ✓ Compiled in 789ms
+[00:31:38.883] Server  LOG      ✓ Compiled in 791ms
+[00:31:51.614] Server  LOG      ✓ Compiled in 735ms
+[00:31:55.567] Server  LOG      ✓ Compiled in 726ms
+[00:32:08.337] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:37.257] Server  LOG      ✓ Compiled in 1101ms
+[00:32:43.201] Server  LOG      ✓ Compiled in 1237ms
+[00:32:43.305] Browser ERROR   Received `%s` for a non-boolean attribute `%s`.
 
 If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}. true cl cl true cl
-[00:23:41.168] Server  LOG      ✓ Compiled in 916ms
-[00:23:56.545] Server  LOG      ✓ Compiled in 647ms
-[00:24:02.346] Server  LOG      ✓ Compiled in 1016ms
-[00:24:07.132] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:24:14.365] Server  LOG      ✓ Compiled in 639ms
-[00:24:16.518] Server  LOG      ✓ Compiled in 982ms
-[00:24:20.090] Server  LOG      ✓ Compiled in 1126ms
-[00:24:22.138] Server  LOG      ✓ Compiled in 1181ms
-[00:24:24.671] Server  LOG      ✓ Compiled in 1306ms
-[00:24:26.111] Server  LOG      ✓ Compiled in 1229ms
-[00:24:27.997] Server  LOG      ✓ Compiled in 1444ms
-[00:25:41.502] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:44.682] Server  LOG      ✓ Compiled in 1019ms
+[00:34:02.742] Server  LOG      ✓ Compiled in 1315ms
+[00:34:05.730] Server  LOG      ✓ Compiled in 750ms
+[00:34:10.664] Server  LOG      ✓ Compiled in 912ms
+[00:34:13.204] Server  LOG      ✓ Compiled in 1294ms
+[00:34:14.772] Server  LOG      ✓ Compiled in 765ms
+[00:34:16.116] Server  LOG      ✓ Compiled in 739ms
+[00:34:20.834] Server  LOG      ✓ Compiled in 532ms
+[00:34:26.460] Server  LOG      ✓ Compiled in 1041ms
+[00:34:27.805] Server  LOG      ✓ Compiled in 963ms
+[00:34:29.834] Server  LOG      ✓ Compiled in 613ms
+[00:34:33.069] Server  LOG      ✓ Compiled in 720ms
+[00:34:35.743] Server  LOG      ✓ Compiled in 696ms
+[00:34:48.125] Server  LOG      ✓ Compiled in 397ms
+[00:34:48.232] Browser ERROR   ./app/staff/page.tsx:120:65
+Parsing ecmascript source code failed
+  118 |                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-700">{member.phone}</td>
+  119 |                     <td className="px-6 py-4 whitespace-nowrap">
+> 120 |                       <span className={member.status === 'Active' ? 'badge-success' : 'badge-warning'}>
+      |                                                                 ^^^^^
+  121 |                         {member.status}
+  122 |                       </span>
+  123 |                     </td>
+
+Expected '</', got 'string literal ( ? , ' ? ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/staff/page.tsx [Client Component Browser]
+    ./app/staff/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/staff/page.tsx [Client Component SSR]
+    ./app/staff/page.tsx [Server Component]
+[00:34:54.272] Browser ERROR   ./app/staff/page.tsx:120:65
+Parsing ecmascript source code failed
+  118 |                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-700">{member.phone}</td>
+  119 |                     <td className="px-6 py-4 whitespace-nowrap">
+> 120 |                       <span className={member.status === 'Active' ? 'badge-success' : 'badge-warning'}>
+      |                                                                 ^^^^^
+  121 |                         {member.status}
+  122 |                       </span>
+  123 |                     </td>
+
+Expected '</', got 'string literal ( ? , ' ? ')'
+
+Import traces:
+  Client Component Browser:
+    ./app/staff/page.tsx [Client Component Browser]
+    ./app/staff/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/staff/page.tsx [Client Component SSR]
+    ./app/staff/page.tsx [Server Component]
+[00:35:01.146] Server  LOG      ✓ Compiled in 3.3s
+[00:35:01.250] Browser ERROR   ./app/staff/page.tsx:90:19
+Parsing ecmascript source code failed
+  88 |           <table className="min-w-full divide-y divide-gray-200">
+  89 |             <thead className="table-header 'bg-blue-400 ">
+> 90 |               <tr \>
+     |                   ^
+  91 |                 <th className="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Name</th>
+  92 |                 <th className="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Role</th>
+  93 |                 <th className="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Email</th>
+
+Expected unicode escape
+
+Import traces:
+  Client Component Browser:
+    ./app/staff/page.tsx [Client Component Browser]
+    ./app/staff/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/staff/page.tsx [Client Component SSR]
+    ./app/staff/page.tsx [Server Component]
+[00:35:01.250] Browser ERROR   ./app/staff/page.tsx:90:20
+Parsing ecmascript source code failed
+  88 |           <table className="min-w-full divide-y divide-gray-200">
+  89 |             <thead className="table-header 'bg-blue-400 ">
+> 90 |               <tr \>
+     |                    ^
+  91 |                 <th className="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Name</th>
+  92 |                 <th className="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Role</th>
+  93 |                 <th className="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Email</th>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./app/staff/page.tsx [Client Component Browser]
+    ./app/staff/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/staff/page.tsx [Client Component SSR]
+    ./app/staff/page.tsx [Server Component]
+[00:35:06.369] Server  LOG      ✓ Compiled in 3.9s
+[00:35:06.471] Browser ERROR   ./app/staff/page.tsx:90:25
+Parsing ecmascript source code failed
+  88 |           <table className="min-w-full divide-y divide-gray-200">
+  89 |             <thead className="table-header 'bg-blue-400 ">
+> 90 |               <tr ></tr>>
+     |                         ^
+  91 |                 <th className="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Name</th>
+  92 |                 <th className="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Role</th>
+  93 |                 <th className="px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">Email</th>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import traces:
+  Client Component Browser:
+    ./app/staff/page.tsx [Client Component Browser]
+    ./app/staff/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/staff/page.tsx [Client Component SSR]
+    ./app/staff/page.tsx [Server Component]
+[00:35:13.698] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:37.500] Server  LOG      ✓ Compiled in 1126ms
+[00:35:43.180] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:54:42.506] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:15.478] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:07:42.449] Server  LOG      ✓ Compiled in 348ms
+[01:07:42.552] Browser ERROR   ./app/styles/components.css
+Error evaluating Node.js code
+CssSyntaxError: /home/itachi/Desktop/COURIER-SERVICE/COURIER-FRONTEND/courier-app/app/styles/components.css:40:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./app/styles/components.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[01:07:52.621] Server  LOG      ✓ Compiled in 285ms
+[01:07:52.722] Browser ERROR   ./app/styles/components.css
+Error evaluating Node.js code
+CssSyntaxError: /home/itachi/Desktop/COURIER-SERVICE/COURIER-FRONTEND/courier-app/app/styles/components.css:62:1: Unclosed block
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unclosedBlock (turbopack:///[project]/node_modules/postcss/lib/parser.js:575:22)]
+    [at Parser.endFile (turbopack:///[project]/node_modules/postcss/lib/parser.js:335:35)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:476:10)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./app/styles/components.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[01:08:03.502] Server  LOG      ✓ Compiled in 773ms
+[01:08:16.639] Server  LOG      ✓ Compiled in 2.7s

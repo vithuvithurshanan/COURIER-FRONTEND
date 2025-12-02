@@ -529,11 +529,11 @@ var _s = __turbopack_context__.k.signature();
 function StaffPage() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(33);
-    if ($[0] !== "5aadaeeb42c375ece59221a570ae2ee4e52398b209fcb7298497f8915b18d582") {
+    if ($[0] !== "d4c1f60639a65bdbbed8c784934f28e4a8dedf3d1095139e85592a06c1cedced") {
         for(let $i = 0; $i < 33; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "5aadaeeb42c375ece59221a570ae2ee4e52398b209fcb7298497f8915b18d582";
+        $[0] = "d4c1f60639a65bdbbed8c784934f28e4a8dedf3d1095139e85592a06c1cedced";
     }
     const { staff, setStaff } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$context$2f$DataContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useData"])();
     const [showModal, setShowModal] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -705,7 +705,7 @@ function StaffPage() {
     let t7;
     if ($[15] === Symbol.for("react.memo_cache_sentinel")) {
         t7 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
-            className: "table-header",
+            className: "table-header bg-blue-400 ",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -714,7 +714,7 @@ function StaffPage() {
                     }, void 0, false, {
                         fileName: "[project]/app/staff/page.tsx",
                         lineNumber: 167,
-                        columnNumber: 46
+                        columnNumber: 59
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                         className: "px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider",
@@ -722,7 +722,7 @@ function StaffPage() {
                     }, void 0, false, {
                         fileName: "[project]/app/staff/page.tsx",
                         lineNumber: 167,
-                        columnNumber: 152
+                        columnNumber: 165
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                         className: "px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider",
@@ -730,7 +730,7 @@ function StaffPage() {
                     }, void 0, false, {
                         fileName: "[project]/app/staff/page.tsx",
                         lineNumber: 167,
-                        columnNumber: 258
+                        columnNumber: 271
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                         className: "px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider",
@@ -738,7 +738,7 @@ function StaffPage() {
                     }, void 0, false, {
                         fileName: "[project]/app/staff/page.tsx",
                         lineNumber: 167,
-                        columnNumber: 365
+                        columnNumber: 378
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                         className: "px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider",
@@ -746,7 +746,7 @@ function StaffPage() {
                     }, void 0, false, {
                         fileName: "[project]/app/staff/page.tsx",
                         lineNumber: 167,
-                        columnNumber: 472
+                        columnNumber: 485
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                         className: "px-6 py-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider",
@@ -754,13 +754,13 @@ function StaffPage() {
                     }, void 0, false, {
                         fileName: "[project]/app/staff/page.tsx",
                         lineNumber: 167,
-                        columnNumber: 580
+                        columnNumber: 593
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/staff/page.tsx",
                 lineNumber: 167,
-                columnNumber: 42
+                columnNumber: 55
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/staff/page.tsx",
@@ -810,7 +810,7 @@ function StaffPage() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-gray-400 text-sm",
-                            children: 'Click "+ Add Staff Member" to add your first staff member'
+                            children: "Click “+ Add Staff Member” to add your first staff member"
                         }, void 0, false, {
                             fileName: "[project]/app/staff/page.tsx",
                             lineNumber: 174,
@@ -870,7 +870,7 @@ function StaffPage() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
                             className: "px-6 py-4 whitespace-nowrap",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: member_1.status === "Active" ? "badge-success" : "badge-gray",
+                                className: member_1.status === "Active" ? "badge-success" : "badge-warning",
                                 children: member_1.status
                             }, void 0, false, {
                                 fileName: "[project]/app/staff/page.tsx",
@@ -892,33 +892,73 @@ function StaffPage() {
                                             "StaffPage[staff.map() > <button>.onClick]": ()=>handleEdit(member_1)
                                         }["StaffPage[staff.map() > <button>.onClick]"],
                                         className: "action-btn action-btn-edit",
-                                        children: "Edit"
+                                        title: "Edit",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                            className: "w-4 h-4",
+                                            fill: "none",
+                                            stroke: "currentColor",
+                                            viewBox: "0 0 24 24",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                strokeLinecap: "round",
+                                                strokeLinejoin: "round",
+                                                strokeWidth: 2,
+                                                d: "M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/staff/page.tsx",
+                                                lineNumber: 177,
+                                                columnNumber: 192
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/staff/page.tsx",
+                                            lineNumber: 177,
+                                            columnNumber: 113
+                                        }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/staff/page.tsx",
                                         lineNumber: 175,
-                                        columnNumber: 677
+                                        columnNumber: 680
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: {
                                             "StaffPage[staff.map() > <button>.onClick]": ()=>handleDelete(member_1)
                                         }["StaffPage[staff.map() > <button>.onClick]"],
                                         className: "action-btn action-btn-delete",
-                                        children: "Delete"
+                                        title: "Delete",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                            className: "w-4 h-4",
+                                            fill: "none",
+                                            stroke: "currentColor",
+                                            viewBox: "0 0 24 24",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                strokeLinecap: "round",
+                                                strokeLinejoin: "round",
+                                                strokeWidth: 2,
+                                                d: "M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/staff/page.tsx",
+                                                lineNumber: 179,
+                                                columnNumber: 196
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/staff/page.tsx",
+                                            lineNumber: 179,
+                                            columnNumber: 117
+                                        }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/staff/page.tsx",
                                         lineNumber: 177,
-                                        columnNumber: 113
+                                        columnNumber: 399
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/staff/page.tsx",
                                 lineNumber: 175,
-                                columnNumber: 644
+                                columnNumber: 647
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/staff/page.tsx",
                             lineNumber: 175,
-                            columnNumber: 600
+                            columnNumber: 603
                         }, this)
                     ]
                 }, member_1.id, true, {
