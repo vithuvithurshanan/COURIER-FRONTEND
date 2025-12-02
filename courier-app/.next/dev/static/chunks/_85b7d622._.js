@@ -529,11 +529,11 @@ var _s = __turbopack_context__.k.signature();
 function ClientsPage() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(33);
-    if ($[0] !== "c6239fad59da3e802d985e8c175756f1a88e20edddecc63e6f9a0c82e026027d") {
+    if ($[0] !== "059585160a69a7b68018480c14252f7758460c49ba4dc475e17a8e3f9f5a3792") {
         for(let $i = 0; $i < 33; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "c6239fad59da3e802d985e8c175756f1a88e20edddecc63e6f9a0c82e026027d";
+        $[0] = "059585160a69a7b68018480c14252f7758460c49ba4dc475e17a8e3f9f5a3792";
     }
     const { clients, setClients } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$context$2f$DataContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useData"])();
     const [showModal, setShowModal] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -810,7 +810,7 @@ function ClientsPage() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-gray-400 text-sm",
-                            children: 'Click "+ Add New Client" to add your first client'
+                            children: "Click “+ Add New Client” to add your first client"
                         }, void 0, false, {
                             fileName: "[project]/app/clients/page.tsx",
                             lineNumber: 174,

@@ -105,7 +105,7 @@ export default function ClientsPage() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                       </svg>
                       <p className="text-gray-500 text-lg font-medium mb-2">No clients found</p>
-                      <p className="text-gray-400 text-sm">Click "+ Add New Client" to add your first client</p>
+                      <p className="text-gray-400 text-sm">Click &ldquo;+ Add New Client&rdquo; to add your first client</p>
                     </div>
                   </td>
                 </tr>
@@ -137,58 +137,58 @@ export default function ClientsPage() {
               <form onSubmit={handleSubmit}>
                 <div className="form-group">
                   <label className="form-label">Company Name</label>
-                  <input 
-                    type="text" 
-                    className="input-field" 
+                  <input
+                    type="text"
+                    className="input-field"
                     placeholder="Enter company name"
                     value={formData.name}
-                    onChange={(e) => setFormData({...formData, name: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     required
                   />
                 </div>
                 <div className="form-row form-row-2">
                   <div className="form-group">
                     <label className="form-label">Contact Person</label>
-                    <input 
-                      type="text" 
-                      className="input-field" 
+                    <input
+                      type="text"
+                      className="input-field"
                       placeholder="Enter contact name"
                       value={formData.contact}
-                      onChange={(e) => setFormData({...formData, contact: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, contact: e.target.value })}
                       required
                     />
                   </div>
                   <div className="form-group">
                     <label className="form-label">Phone</label>
-                    <input 
-                      type="tel" 
-                      className="input-field" 
+                    <input
+                      type="tel"
+                      className="input-field"
                       placeholder="555-0000"
                       value={formData.phone}
-                      onChange={(e) => setFormData({...formData, phone: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       required
                     />
                   </div>
                 </div>
                 <div className="form-group">
                   <label className="form-label">Email</label>
-                  <input 
-                    type="email" 
-                    className="input-field" 
+                  <input
+                    type="email"
+                    className="input-field"
                     placeholder="email@company.com"
                     value={formData.email}
-                    onChange={(e) => setFormData({...formData, email: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     required
                   />
                 </div>
                 <div className="form-group">
                   <label className="form-label">Billing Address</label>
-                  <textarea 
-                    className="input-field" 
-                    rows={3} 
+                  <textarea
+                    className="input-field"
+                    rows={3}
                     placeholder="Enter billing address"
                     value={formData.address}
-                    onChange={(e) => setFormData({...formData, address: e.target.value})}
+                    onChange={(e) => setFormData({ ...formData, address: e.target.value })}
                     required
                   ></textarea>
                 </div>
