@@ -70,6 +70,8 @@
   :root, :host {
     --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --color-red-100: #ffe2e2;
+    --color-red-300: #ffa3a3;
     --color-red-600: #e40014;
     --color-yellow-50: #fefce8;
     --color-yellow-100: #fef9c2;
@@ -140,6 +142,8 @@
 
   @supports (color: lab(0% 0 0)) {
     :root, :host {
+      --color-red-100: lab(92.243% 10.2865 3.83865);
+      --color-red-300: lab(76.5514% 36.422 15.5335);
       --color-red-600: lab(48.4493% 77.4328 61.5452);
       --color-yellow-50: lab(98.6846% -1.79055 9.7766);
       --color-yellow-100: lab(97.3564% -4.51407 27.344);
@@ -716,10 +720,6 @@
     grid-template-rows: repeat(1, minmax(0, 1fr));
   }
 
-  .grid-rows-2 {
-    grid-template-rows: repeat(2, minmax(0, 1fr));
-  }
-
   .flex-col {
     flex-direction: column;
   }
@@ -892,6 +892,14 @@
 
   .bg-purple-500 {
     background-color: var(--color-purple-500);
+  }
+
+  .bg-red-100 {
+    background-color: var(--color-red-100);
+  }
+
+  .bg-red-300 {
+    background-color: var(--color-red-300);
   }
 
   .bg-white {
@@ -2536,6 +2544,29 @@ body {
   box-shadow: 0 12px 40px #1f268740;
 }
 
+.table-header {
+  -webkit-backdrop-filter: blur(12px);
+  background: linear-gradient(135deg, #3b82f6e6 0%, #2563ebf2 100%);
+  border: 1px solid #fff3;
+  position: relative;
+  box-shadow: 0 4px 16px #3b82f633;
+}
+
+.table-header:before {
+  content: "";
+  pointer-events: none;
+  background: linear-gradient(#ffffff1a 0%, #fff0 100%);
+  position: absolute;
+  inset: 0;
+}
+
+.table-header th {
+  text-shadow: 0 1px 2px #0000001a;
+  font-weight: 600;
+  position: relative;
+  color: #fff !important;
+}
+
 .table-striped tbody tr:nth-child(2n) {
   background-color: #f9fafb;
 }
@@ -2551,7 +2582,7 @@ body {
 
 .status-active:before {
   content: "";
-  background-color: #10b981;
+  background-color: #045e40;
   border-radius: 50%;
   width: 8px;
   height: 8px;
@@ -2605,23 +2636,23 @@ body {
 }
 
 .action-btn-edit {
-  color: #2563eb;
+  color: #2053d4;
 }
 
 .action-btn-edit:hover {
-  background-color: #dbeafe;
-  border-color: #93c5fd;
+  background-color: #44b6eb;
+  border-color: #094c99;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px -2px #2563eb33;
 }
 
 .action-btn-delete {
-  color: #dc2626;
+  color: #bd0606;
 }
 
 .action-btn-delete:hover {
-  background-color: #fee2e2;
-  border-color: #fca5a5;
+  background-color: #ee5757;
+  border-color: #920f0f;
   transform: translateY(-2px);
   box-shadow: 0 4px 8px -2px #dc262633;
 }

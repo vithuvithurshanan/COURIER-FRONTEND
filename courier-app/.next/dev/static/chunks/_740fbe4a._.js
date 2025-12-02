@@ -19,7 +19,7 @@ var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.sign
 const DataContext = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["createContext"])(undefined);
 function DataProvider({ children }) {
     _s();
-    const [mounted, setMounted] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const mounted = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(false);
     const defaultClients = [
         {
             id: 1,
@@ -202,7 +202,7 @@ function DataProvider({ children }) {
                     localStorage.removeItem(key);
                 }
             }
-        } catch (e) {
+        } catch  {
         // Invalid data, use defaults
         }
         return defaults;
@@ -225,12 +225,12 @@ function DataProvider({ children }) {
     // Mark as mounted for localStorage saves
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "DataProvider.useEffect": ()=>{
-            setMounted(true);
+            mounted.current = true;
         }
     }["DataProvider.useEffect"], []);
     const setClients = (newClients)=>{
         setClientsState(newClients);
-        if (mounted) {
+        if (mounted.current) {
             try {
                 // Only save if array has items, otherwise remove from localStorage
                 if (newClients.length > 0) {
@@ -245,7 +245,7 @@ function DataProvider({ children }) {
     };
     const setDrivers = (newDrivers)=>{
         setDriversState(newDrivers);
-        if (mounted) {
+        if (mounted.current) {
             try {
                 if (newDrivers.length > 0) {
                     localStorage.setItem('drivers', JSON.stringify(newDrivers));
@@ -259,7 +259,7 @@ function DataProvider({ children }) {
     };
     const setShipments = (newShipments)=>{
         setShipmentsState(newShipments);
-        if (mounted) {
+        if (mounted.current) {
             try {
                 if (newShipments.length > 0) {
                     localStorage.setItem('shipments', JSON.stringify(newShipments));
@@ -273,7 +273,7 @@ function DataProvider({ children }) {
     };
     const setStaff = (newStaff)=>{
         setStaffState(newStaff);
-        if (mounted) {
+        if (mounted.current) {
             try {
                 if (newStaff.length > 0) {
                     localStorage.setItem('staff', JSON.stringify(newStaff));
@@ -287,7 +287,7 @@ function DataProvider({ children }) {
     };
     const setSuppliers = (newSuppliers)=>{
         setSuppliersState(newSuppliers);
-        if (mounted) {
+        if (mounted.current) {
             try {
                 if (newSuppliers.length > 0) {
                     localStorage.setItem('suppliers', JSON.stringify(newSuppliers));
@@ -319,16 +319,16 @@ function DataProvider({ children }) {
         columnNumber: 10
     }, this);
 }
-_s(DataProvider, "HPUu9Mstzn5PocD9MLi2Sa+kId4=");
+_s(DataProvider, "MMqaYiSjmkZm4jubY4kz9h4pUNY=");
 _c = DataProvider;
 function useData() {
     _s1();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(1);
-    if ($[0] !== "3744627007bb285d4c21aa297b3d8d6913ff9712093cd87cf864dbe44d15c4b3") {
+    if ($[0] !== "ffc0ff11458b1d86a73ddde9554871999d0efb2aef4ab54a69bcc27e01e2d628") {
         for(let $i = 0; $i < 1; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "3744627007bb285d4c21aa297b3d8d6913ff9712093cd87cf864dbe44d15c4b3";
+        $[0] = "ffc0ff11458b1d86a73ddde9554871999d0efb2aef4ab54a69bcc27e01e2d628";
     }
     const context = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useContext"])(DataContext);
     if (context === undefined) {

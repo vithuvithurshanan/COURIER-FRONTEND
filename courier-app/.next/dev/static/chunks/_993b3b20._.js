@@ -529,11 +529,11 @@ var _s = __turbopack_context__.k.signature();
 function DriversPage() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(33);
-    if ($[0] !== "d4962d11b64a843484ee244bae5e762a3da940509d8880daab3754ee8ce549c3") {
+    if ($[0] !== "18f3db5903d2babba61bab496f3f808b758641870ece46fbc0ab75c0150d7d59") {
         for(let $i = 0; $i < 33; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "d4962d11b64a843484ee244bae5e762a3da940509d8880daab3754ee8ce549c3";
+        $[0] = "18f3db5903d2babba61bab496f3f808b758641870ece46fbc0ab75c0150d7d59";
     }
     const { drivers, setDrivers } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$context$2f$DataContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useData"])();
     const [showModal, setShowModal] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -810,7 +810,7 @@ function DriversPage() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-gray-400 text-sm",
-                            children: 'Click "+ Add Driver" to add your first driver'
+                            children: "Click “+ Add Driver” to add your first driver"
                         }, void 0, false, {
                             fileName: "[project]/app/drivers/page.tsx",
                             lineNumber: 174,
@@ -892,7 +892,27 @@ function DriversPage() {
                                             "DriversPage[drivers.map() > <button>.onClick]": ()=>handleEdit(driver_1)
                                         }["DriversPage[drivers.map() > <button>.onClick]"],
                                         className: "action-btn action-btn-edit",
-                                        children: "Edit"
+                                        title: "Edit",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                            className: "w-4 h-4",
+                                            fill: "none",
+                                            stroke: "currentColor",
+                                            viewBox: "0 0 24 24",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                strokeLinecap: "round",
+                                                strokeLinejoin: "round",
+                                                strokeWidth: 2,
+                                                d: "M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/drivers/page.tsx",
+                                                lineNumber: 177,
+                                                columnNumber: 196
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/drivers/page.tsx",
+                                            lineNumber: 177,
+                                            columnNumber: 117
+                                        }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/drivers/page.tsx",
                                         lineNumber: 175,
@@ -903,11 +923,31 @@ function DriversPage() {
                                             "DriversPage[drivers.map() > <button>.onClick]": ()=>handleDelete(driver_1)
                                         }["DriversPage[drivers.map() > <button>.onClick]"],
                                         className: "action-btn action-btn-delete",
-                                        children: "Delete"
+                                        title: "Delete",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                            className: "w-4 h-4",
+                                            fill: "none",
+                                            stroke: "currentColor",
+                                            viewBox: "0 0 24 24",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                strokeLinecap: "round",
+                                                strokeLinejoin: "round",
+                                                strokeWidth: 2,
+                                                d: "M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/drivers/page.tsx",
+                                                lineNumber: 179,
+                                                columnNumber: 200
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/drivers/page.tsx",
+                                            lineNumber: 179,
+                                            columnNumber: 121
+                                        }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/drivers/page.tsx",
                                         lineNumber: 177,
-                                        columnNumber: 117
+                                        columnNumber: 403
                                     }, this)
                                 ]
                             }, void 0, true, {

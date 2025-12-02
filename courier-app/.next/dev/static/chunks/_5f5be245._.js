@@ -529,11 +529,11 @@ var _s = __turbopack_context__.k.signature();
 function ShipmentsPage() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(34);
-    if ($[0] !== "0cf24043e9e2f6705c51818db28cec793250d2b74d2cfb071b3c6e97637dd909") {
+    if ($[0] !== "33a1e1ecb808d5d159299636f12615883becab26d060c98bfe57a7243336aec2") {
         for(let $i = 0; $i < 34; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "0cf24043e9e2f6705c51818db28cec793250d2b74d2cfb071b3c6e97637dd909";
+        $[0] = "33a1e1ecb808d5d159299636f12615883becab26d060c98bfe57a7243336aec2";
     }
     const { shipments, setShipments, drivers } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$context$2f$DataContext$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useData"])();
     const [showModal, setShowModal] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -809,7 +809,7 @@ function ShipmentsPage() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-gray-400 text-sm",
-                            children: 'Click "+ Create New Shipment" to add your first shipment'
+                            children: "Click “+ Create New Shipment” to add your first shipment"
                         }, void 0, false, {
                             fileName: "[project]/app/shipments/page.tsx",
                             lineNumber: 173,
@@ -891,7 +891,27 @@ function ShipmentsPage() {
                                             "ShipmentsPage[shipments.map() > <button>.onClick]": ()=>handleEdit(shipment_1)
                                         }["ShipmentsPage[shipments.map() > <button>.onClick]"],
                                         className: "action-btn action-btn-edit",
-                                        children: "Edit"
+                                        title: "Edit",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                            className: "w-4 h-4",
+                                            fill: "none",
+                                            stroke: "currentColor",
+                                            viewBox: "0 0 24 24",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                strokeLinecap: "round",
+                                                strokeLinejoin: "round",
+                                                strokeWidth: 2,
+                                                d: "M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/shipments/page.tsx",
+                                                lineNumber: 176,
+                                                columnNumber: 200
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/shipments/page.tsx",
+                                            lineNumber: 176,
+                                            columnNumber: 121
+                                        }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/shipments/page.tsx",
                                         lineNumber: 174,
@@ -902,11 +922,31 @@ function ShipmentsPage() {
                                             "ShipmentsPage[shipments.map() > <button>.onClick]": ()=>handleDelete(shipment_1)
                                         }["ShipmentsPage[shipments.map() > <button>.onClick]"],
                                         className: "action-btn action-btn-delete",
-                                        children: "Delete"
+                                        title: "Delete",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                            className: "w-4 h-4",
+                                            fill: "none",
+                                            stroke: "currentColor",
+                                            viewBox: "0 0 24 24",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                                strokeLinecap: "round",
+                                                strokeLinejoin: "round",
+                                                strokeWidth: 2,
+                                                d: "M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/shipments/page.tsx",
+                                                lineNumber: 178,
+                                                columnNumber: 204
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/shipments/page.tsx",
+                                            lineNumber: 178,
+                                            columnNumber: 125
+                                        }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/shipments/page.tsx",
                                         lineNumber: 176,
-                                        columnNumber: 121
+                                        columnNumber: 407
                                     }, this)
                                 ]
                             }, void 0, true, {
@@ -1379,7 +1419,7 @@ function _ShipmentsPageGetStatusColor(status) {
             }
         case "Pending":
             {
-                return "bg-gray-100 text-gray-800";
+                return "bg-red-300 text-gray-800";
             }
         default:
             {

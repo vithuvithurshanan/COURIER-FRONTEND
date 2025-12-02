@@ -21,7 +21,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const DataContext = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["createContext"])(undefined);
 function DataProvider({ children }) {
-    const [mounted, setMounted] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const mounted = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(false);
     const defaultClients = [
         {
             id: 1,
@@ -201,11 +201,11 @@ function DataProvider({ children }) {
     const [suppliers, setSuppliersState] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(()=>getInitialData('suppliers', defaultSuppliers));
     // Mark as mounted for localStorage saves
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        setMounted(true);
+        mounted.current = true;
     }, []);
     const setClients = (newClients)=>{
         setClientsState(newClients);
-        if (mounted) {
+        if (mounted.current) {
             try {
                 // Only save if array has items, otherwise remove from localStorage
                 if (newClients.length > 0) {
@@ -220,7 +220,7 @@ function DataProvider({ children }) {
     };
     const setDrivers = (newDrivers)=>{
         setDriversState(newDrivers);
-        if (mounted) {
+        if (mounted.current) {
             try {
                 if (newDrivers.length > 0) {
                     localStorage.setItem('drivers', JSON.stringify(newDrivers));
@@ -234,7 +234,7 @@ function DataProvider({ children }) {
     };
     const setShipments = (newShipments)=>{
         setShipmentsState(newShipments);
-        if (mounted) {
+        if (mounted.current) {
             try {
                 if (newShipments.length > 0) {
                     localStorage.setItem('shipments', JSON.stringify(newShipments));
@@ -248,7 +248,7 @@ function DataProvider({ children }) {
     };
     const setStaff = (newStaff)=>{
         setStaffState(newStaff);
-        if (mounted) {
+        if (mounted.current) {
             try {
                 if (newStaff.length > 0) {
                     localStorage.setItem('staff', JSON.stringify(newStaff));
@@ -262,7 +262,7 @@ function DataProvider({ children }) {
     };
     const setSuppliers = (newSuppliers)=>{
         setSuppliersState(newSuppliers);
-        if (mounted) {
+        if (mounted.current) {
             try {
                 if (newSuppliers.length > 0) {
                     localStorage.setItem('suppliers', JSON.stringify(newSuppliers));

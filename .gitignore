@@ -19,8 +19,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # Env files
-.env*
 
 # TypeScript
 *.tsbuildinfo
 courier-app/next-env.d.ts
+config.bat
