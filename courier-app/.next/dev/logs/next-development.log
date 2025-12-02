@@ -31,3 +31,4 @@ If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.
 [00:24:24.671] Server  LOG      ✓ Compiled in 1306ms
 [00:24:26.111] Server  LOG      ✓ Compiled in 1229ms
 [00:24:27.997] Server  LOG      ✓ Compiled in 1444ms
+[00:25:41.502] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
